@@ -1,0 +1,46 @@
+*, 
+*::before, 
+*::after {
+  box-sizing: border-box;
+}
+
+main {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", sans-serif;
+  line-height: 1.5;
+  color: #1f2933;
+  background: #f3f5f7;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+h1 {
+  margin: 0 0 20px;
+  font-size: 24px;
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  main {
+    padding: 32px;
+  }
+}
+
+@media (min-width: 1280px) {
+  h1 {
+    font-size: 32px;
+  }
+}
